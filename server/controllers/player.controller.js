@@ -70,7 +70,7 @@ class PlayerController {
       next(error);
     }
   }
-
+  
   static async getPlayerById(req, res, next) {
     try {
       const { id } = req.params;
